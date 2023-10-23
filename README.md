@@ -22,7 +22,7 @@ Used to prohibit plug-in updates in the WordPress background, theme updates, cor
   
  Download the source code from GitHub, upload and install through the WordPress background, or directly upload the source code to the WordPress plugin directory `wp-content/plugins`, and then enable it in the background. 
 
-GitHub download address:[https://github.com/hekailiu-2512/Disable-updates/releases/tag/V1.0](https://github.com/hekailiu-2512/Disable-updates/releases/tag/V1.0)
+GitHub download address:[https://github.com/hekailiu-2512/Disable-system-background-updates/releases/tag/V1.0](https://github.com/hekailiu-2512/Disable-system-background-updates/releases/tag/V1.0)
 
 ## Modify the configuration
     
