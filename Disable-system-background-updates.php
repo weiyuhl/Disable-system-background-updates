@@ -5,6 +5,7 @@ Description: 用于禁用插件、主题或核心自动更新
 Version: 1.0
 Author: 和离
 Author URI: https://heliq.cn
+License: GPLv3
 */
 defined('ABSPATH') or die('Unauthorized Access'); // 如果常量 ABSPATH 未定义，则终止执行并显示 "Unauthorized Access" 的错误信息
 
