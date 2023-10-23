@@ -9,7 +9,7 @@ global $dau_dir;
 $dau_upload = $upload_dir['basedir'];
 
 if (!empty($dau_upload)) {
-    $dau_dir = $dau_upload . '/Disable-updates';
+    $dau_dir = $dau_upload . '/Disable-system-background-updates';
     wp_mkdir_p($dau_dir);
 }
 
