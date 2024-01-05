@@ -88,3 +88,5 @@ GitHub 下载地址：[https://github.com/hekailiu-2512/Disable-updates/releases
 <p align="center">
     <img src="https://cdn.jsdelivr.net/gh/hekailiu-2512/Disable-updates/Disable-updates-2.png" alt="禁止后台更新" />
 </p>
+
+[![](https://data.jsdelivr.com/v1/package/gh/hekailiu-2512/Disable-system-background-updates/badge)](https://www.jsdelivr.com/package/gh/hekailiu-2512/Disable-system-background-updates)
