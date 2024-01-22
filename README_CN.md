@@ -1,6 +1,14 @@
 <h1 align="center">禁止后台更新</h1>
 <p align="center">
 
+<p align="center">
+    <img src="https://img.shields.io/badge/PHP-%3E8.0-777BB4?style=flat-square&logo=php&logoColor=#777BB4">
+    <img src="https://img.shields.io/badge/WordPress-v6.5%20tested-21759B?style=flat-square&logo=wordpress">
+    <a href="https://github.com/seatonjiang/kratos/blob/main/LICENSE">
+        <img src="https://img.shields.io/github/license/seatonjiang/kratos?&style=flat-square">
+    </a>
+</p>
+
 ![](https://cdn.jsdelivr.net/gh/hekailiu-2512/Disable-updates/Disable-updates-2.png)
 
 # 禁止后台更新
