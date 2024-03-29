@@ -1,3 +1,5 @@
+![Alt](https://repobeats.axiom.co/api/embed/6a1bda6001e15a56c42f79bbd141a669e57f31a1.svg "Repobeats analytics image")
+
 <h1 align="center">Prohibit background updates</h1>
 
 English / [简体中文](./README_CN.md)
