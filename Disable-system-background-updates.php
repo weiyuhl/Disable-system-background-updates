@@ -62,7 +62,8 @@ if (!class_exists('Da_updates')) {
         {
             if (strpos($file, "Disable-system-background-updates/Disable-system-background-updates.php") !== false) {
                 $new_link = [
-                    "donation" => '<a href="https://github.com/hekailiu-2512/Disable-system-background-updates" target="_blank">GITHUB</a>'
+                    "donation" => '<a href="https://github.com/hekailiu-2512/Disable-system-background-updates" target="_blank">GITHUB</a>',
+                    "website" => '<a href="https://heliq.cn" target="_blank">访问网站</a>'
                 ];
 
                 // 添加一个新的链接到插件行元数据中
