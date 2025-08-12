@@ -61,12 +61,15 @@ if (!class_exists('Da_updates')) {
         public function meta($links = [], $file = "")
         {
             if (strpos($file, "Disable-system-background-updates/Disable-system-background-updates.php") !== false) {
-                $new_link = [
-                    "donation" => '<a href="https://github.com/hekailiu-2512/Disable-system-background-updates" target="_blank">GITHUB</a>'
+                $new_links = [
+                    "github" => '<a href="https://github.com/hekailiu-2512/Disable-system-background-updates" target="_blank">GITHUB</a>',
+                    "author_blog" => '<a href="https://heliq.cn" target="_blank">作者博客</a>',
+                    "sponsor" => '<a href="https://afdian.net/a/heli2512" target="_blank">赞助支持</a>',
+                    "support" => '<a href="https://github.com/hekailiu-2512/Disable-system-background-updates/issues" target="_blank">技术支持</a>'
                 ];
 
-                // 添加一个新的链接到插件行元数据中
-                $links = array_merge($links, $new_link);
+                // 添加多个新的链接到插件行元数据中
+                $links = array_merge($links, $new_links);
             }
 
             return $links;
