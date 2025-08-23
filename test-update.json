@@ -1,0 +1,22 @@
+{
+  "version": "5.2.1",
+  "name": "咏雪助手",
+  "homepage": "https://wpapzm.cn",
+  "download_url": "https://example.com/yongxue-assistant-5.2.1.zip",
+  "tested": "6.8.2",
+  "requires": "5.0",
+  "requires_php": "7.4",
+  "last_updated": "2025-08-23 10:30:00",
+  "upgrade_notice": "重要安全更新",
+  "sections": {
+    "description": "咏雪助手是一款WordPress辅助工具插件。",
+    "changelog": "<h4>5.2.1</h4><ul><li>修复安全漏洞</li><li>性能优化</li></ul>",
+    "installation": "<ol><li>下载插件</li><li>上传激活</li></ol>"
+  },
+  "banners": {
+    "low": "https://s2.loli.net/2025/08/24/YX1AD2S4OhnIsiL.png"
+  },
+  "icons": {
+    "1x": "https://s2.loli.net/2025/08/24/AgFe2wfsjEUvZp7.png"
+  }
+}
