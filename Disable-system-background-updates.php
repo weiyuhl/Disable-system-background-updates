@@ -5,7 +5,7 @@ Description: 用于禁用插件、主题或核心自动更新
 Version: 1.0
 Author: 和离
 Author URI: https://heliq.cn
-License: GPLv3
+License: Apache 2.0
 */
 defined('ABSPATH') or die('Unauthorized Access'); // 如果常量 ABSPATH 未定义，则终止执行并显示 "Unauthorized Access" 的错误信息
 
@@ -22,7 +22,7 @@ if (!class_exists('Da_updates')) {
             add_action('admin_menu', array($this, 'add_admin_pages'));
             add_filter('clean_url', [$this, 'add_async_attribute'], 11, 1);
             add_filter("plugin_row_meta", [$this, "meta"], 10, 2);
-            add_filter('plugin_action_links', [$this, 'ads_action_links'], 10, 5);
+            add_filter('plugin_action_links', [$this, 'ads_action_links'], 10, 4);
         }
 
         public function add_admin_pages()
@@ -60,7 +60,7 @@ if (!class_exists('Da_updates')) {
 
         public function meta($links = [], $file = "")
         {
-            if (strpos($file, "Disable-system-background-updates/Disable-system-background-updates.php") !== false) {
+            if ($file === plugin_basename(__FILE__)) {
                 $new_links = [
                     "github" => '<a href="https://github.com/hekailiu-2512/Disable-system-background-updates" target="_blank">GITHUB</a>',
                     "author_blog" => '<a href="https://heliq.cn" target="_blank">作者博客</a>',
@@ -75,7 +75,7 @@ if (!class_exists('Da_updates')) {
             return $links;
         }
 
-        public function ads_action_links($links, $plugin_file)
+        public function ads_action_links($links, $plugin_file, $plugin_data = '', $context = '')
         {
             $plugin = plugin_basename(__FILE__);
 
