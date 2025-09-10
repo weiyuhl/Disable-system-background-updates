@@ -1,6 +1,6 @@
 === Disable-WP-system-updates（禁止后台更新） ===
 Contributors: 和离
-Donate link: https://github.com/hekailiu-2512/Disable-updates
+Donate link: https://github.com/hekailiu-2512/Disable-system-background-updates
 Tags: 禁止插件更新，禁止主题更新，禁止核心更新，隐藏更新通知，禁用管理员通知
 Requires at least: 4.2
 Tested up to: 6.3
