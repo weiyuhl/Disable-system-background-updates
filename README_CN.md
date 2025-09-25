@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-    <img src="https://cdn.jsdelivr.net/gh/hekailiu-2512/Disable-updates/Disable-updates-2.png" alt="禁用 WordPress 后台更新预览" />
+    <img src="./Disable-updates-2.png" alt="禁用 WordPress 后台更新预览" />
 </p>
 
 一个专为 WordPress 设计的插件，用于禁用插件更新、主题更新、核心更新，隐藏更新通知，以及禁用管理员更新通知。
@@ -56,7 +56,7 @@
 ### 配置功能
 
 <p align="center">
-    <img src="https://cdn.jsdelivr.net/gh/hekailiu-2512/Disable-updates/Disable-updates-1.jpg" alt="插件设置界面" />
+    <img src="./Disable-updates-1.jpg" alt="插件设置界面" />
 </p>
 
 根据需要选择要启用的功能：
@@ -71,7 +71,7 @@
 2. 观察更新相关的警告和通知现已被隐藏
 
 <p align="center">
-    <img src="https://cdn.jsdelivr.net/gh/hekailiu-2512/Disable-updates/Disable-updates-2.png" alt="站点健康预览" />
+    <img src="./Disable-updates-2.png" alt="站点健康预览" />
 </p>
 
 ## 📋 系统要求
@@ -109,7 +109,7 @@
     <a href="https://afdian.net/a/heli2512" target="_blank">
         <img src="https://img.shields.io/badge/赞助支持-爱发电-yellow?style=flat-square" alt="赞助支持">
     </a>
-    <a href="https://www.jsdelivr.com/package/gh/hekailiu-2512/Disable-system-background-updates">
-        <img src="https://data.jsdelivr.com/v1/package/gh/hekailiu-2512/Disable-system-background-updates/badge" alt="jsDelivr">
+    <a href="https://www.jsdelivr.com/package/gh/weiyuhl/Disable-system-background-updates">
+        <img src="https://data.jsdelivr.com/v1/package/gh/weiyuhl/Disable-system-background-updates/badge" alt="jsDelivr">
     </a>
 </p>

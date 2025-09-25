@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-    <img src="https://cdn.jsdelivr.net/gh/hekailiu-2512/Disable-updates/Disable-updates-2.png" alt="Disable WordPress Background Updates Preview" />
+    <img src="./Disable-updates-2.png" alt="Disable WordPress Background Updates Preview" />
 </p>
 
 A WordPress plugin designed to disable plugin updates, theme updates, core updates, hide update notifications, and disable administrator notifications in the WordPress backend.
@@ -56,7 +56,7 @@ Choose one of the following methods to access the plugin configuration:
 ### Configure Features
 
 <p align="center">
-    <img src="https://cdn.jsdelivr.net/gh/hekailiu-2512/Disable-updates/Disable-updates-1.jpg" alt="Plugin Settings Interface" />
+    <img src="./Disable-updates-1.jpg" alt="Plugin Settings Interface" />
 </p>
 
 Select the features you want to enable based on your needs:
@@ -71,7 +71,7 @@ To see the plugin in action:
 2. Observe that update-related warnings and notifications are now hidden
 
 <p align="center">
-    <img src="https://cdn.jsdelivr.net/gh/hekailiu-2512/Disable-updates/Disable-updates-2.png" alt="Site Health Preview" />
+    <img src="./Disable-updates-2.png" alt="Site Health Preview" />
 </p>
 
 ## 📋 Requirements
@@ -99,7 +99,7 @@ Contributions are welcome! Please feel free to submit a Pull Request or open an 
     <a href="https://afdian.net/a/heli2512" target="_blank">
         <img src="https://img.shields.io/badge/Support-Buy%20me%20a%20coffee-yellow?style=flat-square" alt="Support">
     </a>
-    <a href="https://www.jsdelivr.com/package/gh/hekailiu-2512/Disable-system-background-updates">
-        <img src="https://data.jsdelivr.com/v1/package/gh/hekailiu-2512/Disable-system-background-updates/badge" alt="jsDelivr">
+    <a href="https://www.jsdelivr.com/package/gh/weiyuhl/Disable-system-background-updates">
+        <img src="https://data.jsdelivr.com/v1/package/gh/weiyuhl/Disable-system-background-updates/badge" alt="jsDelivr">
     </a>
 </p>
