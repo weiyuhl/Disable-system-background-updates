@@ -1,94 +1,105 @@
-![Alt](https://repobeats.axiom.co/api/embed/6a1bda6001e15a56c42f79bbd141a669e57f31a1.svg "Repobeats analytics image")
+![Analytics](https://repobeats.axiom.co/api/embed/6a1bda6001e15a56c42f79bbd141a669e57f31a1.svg "Repobeats analytics image")
 
-<h1 align="center">Prohibit background updates</h1>
-
-English / [简体中文](./README_CN.md)
-
-![](https://cdn.jsdelivr.net/gh/hekailiu-2512/Disable-updates/Disable-updates-2.png)
-
-# Prohibit background updates
-
-Used to prohibit plug-in updates in the WordPress background, theme updates, core updates, hidden update notifications, and disable WordPress plugins notified by administrators!
-
-## Plugin function
-
-* [x] Plug-in updates are prohibited
-* [x] Prohibition of theme updates
-* [x] Prohibit core updates 
-* [x] Hide update notifications
-* [x] prohibited administrator notifications 
-
-## install
-
-### Download source code 
-  
- Download the source code from GitHub, upload and install through the WordPress background, or directly upload the source code to the WordPress plugin directory `wp-content/plugins`, and then enable it in the background. 
-
-GitHub download address:[https://github.com/hekailiu-2512/Disable-system-background-updates/releases/tag/V1.0](https://github.com/hekailiu-2512/Disable-system-background-updates/releases/tag/V1.0)
-
-## Modify the configuration
-    
-* Method 1: There is a setting button on the WordPress plug-in management page, click the settings button, jump to the settings page, and set it!
-* Method 2: In the WordPress background management left navigation bar `Tools `Prohibition update settings, click to enter the settings page!
-
-## Check to enable features as needed
-
-Plug-in updates are prohibited, Prohibition of theme updates,Prohibit core updates,Hide update notifications,prohibited administrator notifications.
-
-![](https://cdn.jsdelivr.net/gh/hekailiu-2512/Disable-updates/Disable-updates-1.jpg)
-
-## Effect preview
-
-* In the left navigation bar of the WordPress background, the `Site Health` under the navigation bar `Tools`, click to enter the page to see the effect.
+<h1 align="center">Disable WordPress Background Updates</h1>
 
 <p align="center">
-    <img src="https://cdn.jsdelivr.net/gh/hekailiu-2512/Disable-updates/Disable-updates-2.png" alt="Prohibit background updates" />
+    <img src="https://img.shields.io/badge/PHP-%3E8.0-777BB4?style=flat-square&logo=php&logoColor=white">
+    <img src="https://img.shields.io/badge/WordPress-v6.5%20tested-21759B?style=flat-square&logo=wordpress">
+    <img src="https://img.shields.io/github/license/weiyuhl/Disable-system-background-updates?style=flat-square">
+    <img src="https://img.shields.io/github/v/release/weiyuhl/Disable-system-background-updates?style=flat-square">
 </p>
+
+<p align="center">
+    English | <a href="./README_CN.md">简体中文</a>
+</p>
+
+<p align="center">
+    <img src="https://cdn.jsdelivr.net/gh/hekailiu-2512/Disable-updates/Disable-updates-2.png" alt="Disable WordPress Background Updates Preview" />
+</p>
+
+A WordPress plugin designed to disable plugin updates, theme updates, core updates, hide update notifications, and disable administrator notifications in the WordPress backend.
+
+## ✨ Features
+
+* ✅ **Disable Plugin Updates** - Prevent automatic and manual plugin updates
+* ✅ **Disable Theme Updates** - Block theme update notifications and processes
+* ✅ **Disable Core Updates** - Stop WordPress core update checks and installations
+* ✅ **Hide Update Notifications** - Remove update notices from admin dashboard
+* ✅ **Disable Admin Notifications** - Suppress update-related email notifications
+
+## 📦 Installation
+
+### Method 1: WordPress Admin Dashboard
+1. Download the latest release from [GitHub Releases](https://github.com/weiyuhl/Disable-system-background-updates/releases)
+2. Navigate to `Plugins > Add New` in WordPress admin
+3. Click `Upload Plugin` and select the downloaded zip file
+4. Click `Install Now` and then `Activate`
+
+### Method 2: Manual Installation
+1. Download and extract the plugin files
+2. Upload the `Disable-system-background-updates` folder to your `/wp-content/plugins/` directory
+3. Activate the plugin through the `Plugins` menu in WordPress admin
+
+## ⚙️ Configuration
+
+### Access Plugin Settings
+
+Choose one of the following methods to access the plugin configuration:
+
+**Method 1:** From Plugins Page
+- Navigate to `Plugins > Installed Plugins`
+- Find "Disable WordPress Background Updates" and click `Settings`
+
+**Method 2:** From Tools Menu
+- Navigate to `Tools > Disable Update Settings` in WordPress admin sidebar
+
+### Configure Features
+
+<p align="center">
+    <img src="https://cdn.jsdelivr.net/gh/hekailiu-2512/Disable-updates/Disable-updates-1.jpg" alt="Plugin Settings Interface" />
+</p>
+
+Select the features you want to enable based on your needs:
+- Check/uncheck the options according to your requirements
+- Click `Save Changes` to apply the settings
+
+## 🎯 Preview
+
+To see the plugin in action:
+
+1. Navigate to `Tools > Site Health` in WordPress admin
+2. Observe that update-related warnings and notifications are now hidden
+
+<p align="center">
+    <img src="https://cdn.jsdelivr.net/gh/hekailiu-2512/Disable-updates/Disable-updates-2.png" alt="Site Health Preview" />
+</p>
+
+## 📋 Requirements
+
+- **WordPress**: 4.2 or higher
+- **PHP**: 5.6.0 or higher
+- **Tested up to**: WordPress 6.5
+
+## 📄 License
+
+This project is licensed under the [Apache License 2.0](LICENSE).
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request or open an issue on [GitHub](https://github.com/weiyuhl/Disable-system-background-updates).
+
+## 📞 Support
+
+- **GitHub Issues**: [Report bugs or request features](https://github.com/weiyuhl/Disable-system-background-updates/issues)
+- **Author**: [和离](https://heliq.cn)
 
 ---
 
-<h1 align="center">禁止后台更新</h1>
 <p align="center">
-
-![](https://cdn.jsdelivr.net/gh/hekailiu-2512/Disable-updates/Disable-updates-2.png)
-
-# 禁止后台更新
-
-用于WordPress后台禁止插件更新，禁止主题更新，禁止核心更新，隐藏更新通知，禁用管理员通知的WordPress插件
-
-## 插件功能
-
-* [x] 禁止插件更新 
-* [x] 禁止主题更新
-* [x] 禁止核心更新 
-* [x] 隐藏更新通知
-* [x] 禁止管理员通知 
-
-## 安装
-
-### 下载源码 
-  
- 从 GitHub 下载源码，通过 WordPress 后台上传安装，或者直接将源码上传到 WordPress 插件目录`wp-content/plugins`，然后在后台启用。
-
-GitHub 下载地址：[https://github.com/hekailiu-2512/Disable-updates/releases/tag/V1.0](https://github.com/hekailiu-2512/Disable-updates/releases/tag/V1.0) 
-
-## 修改配置
-    
-* 方法一：在 WordPress 插件管理页面有设置按钮，点击设置按钮，跳转到设置页面，进行设置！
-* 方法二：在 WordPress 后台管理左侧导航栏`工具`下`禁止更新设置`，点击进入设置页面
-
-## 根据需要勾选启用功能
-
-禁止插件更新，禁止主题更新，禁止核心更新，隐藏更新通知，禁用管理员通知
-
-![](https://cdn.jsdelivr.net/gh/hekailiu-2512/Disable-updates/Disable-updates-1.jpg)
-
-## 效果预览
-
-* 在 WordPress 后台管理左侧导航栏`工具`下`站点健康`，点击进入页面即可看到效果。
-
-<p align="center">
-    <img src="https://cdn.jsdelivr.net/gh/hekailiu-2512/Disable-updates/Disable-updates-2.png" alt="禁止后台更新" />
+    <a href="https://afdian.net/a/heli2512" target="_blank">
+        <img src="https://img.shields.io/badge/Support-Buy%20me%20a%20coffee-yellow?style=flat-square" alt="Support">
+    </a>
+    <a href="https://www.jsdelivr.com/package/gh/hekailiu-2512/Disable-system-background-updates">
+        <img src="https://data.jsdelivr.com/v1/package/gh/hekailiu-2512/Disable-system-background-updates/badge" alt="jsDelivr">
+    </a>
 </p>
-
-[![](https://data.jsdelivr.com/v1/package/gh/hekailiu-2512/Disable-system-background-updates/badge)](https://www.jsdelivr.com/package/gh/hekailiu-2512/Disable-system-background-updates)
